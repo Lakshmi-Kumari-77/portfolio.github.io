@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Professional Portfolio</title>
+    <link rel="icon" href="Logo.png">
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        #head{
+            background-color: #9BABB8;
+            font-size: 25px;
+            width: 100%;
+            margin-left:auto ;
+            margin-top:auto;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        a:link{
+            color: darkgreen;
+            text-decoration: none;
+            padding-left: 1%;
+        }
+        a:visited{
+            color: black;
+        }
+        a:active{
+           color: whitesmoke; 
+        }
+        /*a:hover{
+            background-color: bisque;
+        }*/
+        #home{
+            font-size: 35px;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            width: 100%;
+            background-color: bisque;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+
+        }
+        #about h1{
+            width: 100%;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            background-color: #EEE2DE;
+            margin-top: -76px;
+            margin-bottom: -20px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+        }
+        #about p{
+            width: 100%;
+            font-size: 25px;
+            background-color: #EEE2DE;
+            margin-top: 30px;
+            padding-top: 87px;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+        }
+        aside img{
+            width: 20.1%;
+            margin-left: 80%;
+            margin-top: -30px;
+            height: 10%;
+            padding-top: 0px;
+            margin-bottom:-220px;
+            padding-bottom: 30px;
+            background-color: #EEE2DE;
+        }
+        #education h1{
+            background-color: #9BABB8;
+            width: 100%;
+            font-size: 30px;
+            margin-top: -2%;
+            margin-bottom: 10px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            text-align: center;
+            
+        }
+        #education table{
+            width: 100%;
+            font-size: 25px;
+            background-color: #9BABB8;
+            border-collapse: collapse;
+            margin-top: auto;
+            text-align: center;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        #education th, td{
+            border: 2px solid bisque;
+            padding-bottom: 30px;
+            
+        }
+        #education h2{
+            font-size: 30px;
+            background-color: #9BABB8;
+            margin-top: auto;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            margin-bottom: 35px;
+
+        }
+        #education ul{
+            margin-top: -25px;
+            font-size: 25px;
+            background-color: #9BABB8;
+            list-style: square;
+            padding-bottom: 30px;
+            margin-bottom: 35px;
+        }
+        #internship h1{
+            width: 100%;
+            margin-top: -25px;
+            margin-bottom: 25px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            background-color: bisque;
+            text-align: center;
+            font-size: 30px;
+        }
+        #internship dt{
+            width: 100%;
+            font-size: 28px;
+            padding-bottom: 60px;
+            padding-top: 30px;
+            margin-top: -16px;
+            background-color: bisque;
+        }
+        #internship dd{
+            font-size: 25px;
+            background-color: bisque;
+            padding-bottom: 40px;
+            list-style-type: armenian;
+            margin-left: -1px;
+            margin-top: -15px;
+            margin-bottom: 25px;
+        }
+        #projects h1{
+            margin-top: -16px;
+            width: 100%;
+            margin-bottom: 12px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            background-color: #EEE2DE;
+            text-align: center;
+            font-size: 30px;
+        }
+        #projects dt{
+            font-size: 28px;
+            background-color: #EEE2DE;
+            padding-top: 50px;
+            margin-top: -55px;
+        }
+        #projects img{
+            width: 35%;
+            padding-bottom: 40px;
+        }
+        #projects dd{
+            padding-top: 40px;
+            font-size: 25px;
+            background-color: #EEE2DE;
+            margin-top: -18px;
+            margin-left: -0px;
+            padding-left: -10px;
+            padding-bottom: 40px;
+            margin-bottom: 25px;
+        }
+        #certificate h1{
+            margin-top: -16px;
+            width: 100%;
+            margin-bottom: 45px;
+            padding-top: 40px;
+            padding-bottom: 30px;
+            background-color: #9BABB8;
+            text-align: center;
+            font-size: 30px;
+        }
+        #certificate p{
+            margin-top: -36px;
+            width: 100%;
+        }
+        #certificate img{
+            background-color: #9BABB8;
+            width: 101%;
+            height: auto;
+            margin-top: -72px;
+            margin-left: -8px;
+            margin-bottom: 5px;
+        }
+        #contact h1{
+            background-color: bisque;
+            margin-top: -0px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #contact fieldset{
+            background-color: bisque;
+            font-size: 25px;
+            text-align: center;
+            margin-top: -40px;
+            padding-top: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+    <img src="A__1_-removebg-preview.png" height="80px" width="120px" alt="" >
+    <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+        <a href="#home">
+            <font style="padding-left: 16%;" >
+                Home |
+            </font>
+        </a>
+        <a href="#about">
+                About me |
+        </a>
+        <a href="#education">
+                Education |
+        </a>
+        <a href="#internship">
+                Internship |
+        </a>
+        <a href="#projects">
+                Projects |
+        </a>
+        <a href="#certificate">
+                Certificates |
+        </a>
+        <a href="#contact">
+                Contact me
+        </a>
+    </div>
+    <article id="home">
+        <p>HELLO, WELCOME TO MY PORTFOLIO</p><br>
+    </article>
+    <article id="about">
+        <aside style="margin-bottom: -30Px;"><img src="Picture.jpg" alt=""></aside>
+        <h1>ABOUT ME</h1>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;Thanks for your interest, here is a quick story of me and this website.<br> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;I am Lakshmi Kumari M, a trainee on Full Stack Web Development.
+        I love to solve programming problems in efficient ways. Apart from the Web Development, 
+        I also got trained on AutoCAD and also worked on projects like creating 2D and 3D models as well. <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;I do my work mainly in Java, SQL, HTML, CSS and JavaScript.
+        Besides these I know designing using AutoCAD. <br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;This website is basically my first Web Development project, 
+        which is built using HTML only. Thanks again for reading my portfolio,
+        because of people like you, it exists and prospers! </p>
+    </article>
+    <article id="education">
+        <h1>
+            EDUCATION
+        </h1>
+        
+        <table>
+            <tr>
+                <th>
+                    QUALIFICATION
+                </th>
+                <th>
+                    INSTITUTION
+                </th>
+                <th>
+                    BOARD
+                </th>
+                <th>
+                    YEAR OF COMPLETION
+                </th>
+                <th>
+                    PERCENTAGE
+                </th>
+            </tr>
+            <tr>
+                <td>  
+                     (Mechanical Engineering)
+                </td>
+                <td>
+                    Sri Venkateswara Institute of Science and Technology, Kadapa, A.P.
+                </td>
+                <td>
+                    Jawaharlal Nehru Technological University Anantapur
+                </td>
+                <td>
+                    2023
+                </td>
+                <td>
+                    81.3%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Intermediate <br>
+                    (M.P.C)
+                </td>
+                <td>
+                    A.P.S.W.R. Jr. College, A.P.
+                </td>
+                <td>
+                    Board of Intermediate Education, Andhra Pradesh
+                </td>
+                <td>
+                    2019
+                </td>
+                <td>
+                    92.72%
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    SSC <br>
+                   (10th class)  
+                </td>
+                <td>
+                    Sri Veda Vyasa High School, A.P.
+                </td>
+                <td>
+                    Board of Secondary Education, Andhra Praddesh
+                </td>
+                <td>
+                    2017 
+                </td>
+                <td>
+                    90.25%
+                </td>
+            </tr>
+        </table>
+        
+        
+        <h2>
+            SKILLS
+        </h2>
+        
+        <ul>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>AutoCAD</li>
+        </ul>
+    </article>
+    <article id="internship">
+        <h1>
+            INTERNSHIP
+        </h1>
+        <dl>
+            <dt>
+                AUTOCAD INTERNSHIP
+            </dt>
+            <dd>
+                    <ul>
+                        <li>
+                            Worked on Interface to access all tools 
+                            needed for creating models
+                        </li>
+                        <li>
+                            Used Drawing Aids & Basic Objects tools to 
+                            create drawing ease using draw commands
+                        </li>
+                        <li>
+                            Practiced Complex Objects & Object for creating accurate 
+                            drawings and to modify the objects
+                        </li>
+                        <li>
+                            Used Blocks & Annotations to provide information 
+                            and to create repeated content
+                        </li>
+                        <li>
+                            Learned Plotting & Introduction to 3D to plot 
+                            style controls or layer plotting by Learned Plotting & 
+                            Introduction to 3D to plot style controls or layer plotting by
+                        </li>
+                        <li>
+                            Practiced the Final Project Modules to work on real world model
+                        </li>
+                        <li>
+                            Prepared a 2D and 3D project on a solid model
+                        </li>
+                    </ul>
+            </dd>
+        </dl>
+    </article>
+    <article id="projects">
+        <h1>
+            
+            PROJECTS
+            
+        </h1><br><br>
+        <dl>
+            <dt>
+                
+                    <b>
+                        DESIGN AND FABRICATION OF AGRICULTURAL SPRAYER
+                    </b><br>
+                    <img src="Ag sprayer.png" alt="" heigth="250px" width="250px"><br>
+                
+            </dt><br>
+                <dd>
+                        <ul></ul>
+                            <li>
+                                Prepared a working model of an agricultural sprayer in the vehicle setup then
+                                implemented lever mechanism as well.
+                            </li>
+                            <li>
+                                Rotary motion was provided by cam 
+                                mechanism.
+                            </li> 
+                            <li>
+                                A Sprayer reciprocating pump was fixed on the frame and reciprocating 
+                                pump was coupled with cam mechanism.
+                            </li> 
+                            <li>
+                                The motion of the wheel is converted into 
+                                reciprocating motion of the pump and then it will sprinkle through nozzles.
+                            </li> 
+                            <li>
+                                Hence, as 
+                                vehicle moves the water can be sprayed.
+                            </li>
+                        </ul>
+                    
+                </dd>
+                <br><br>
+            <dt>
+                    <b>
+                        2D AND 3D MODEL USING AUTOCAD
+                    </b><br>
+                    <img src="3D_model_img-removebg-preview.png" alt="" heigth="250px" width="250px"><br>
+                
+            </dt><br>
+                <dd>
+                    
+                        It is a 3D model, which was designed as a project using all the tools learned in my AutoCAD internship.
+                    
+                </dd>
+            
+        </dl>
+    </article>
+    <article id="certificate">
+        <h1>
+            
+                
+                    CERTIFICATES
+                
+            
+        </h1>
+            <p>
+                 AUTOCAD TRAINING
+            </p><br><br>
+        <img src="certificate2.png" alt="" height="400px" width="500px">
+        
+    </article>
+    <div id="contact">
+        <h1>
+            
+                    CONTACT ME
+                
+        </h1><br>
+        <form action="submit.html" target="_blank">
+            <fieldset >
+                    <label for="name">Name  </label>
+                    <input type="text" required placeholder="EX: John" id="name" name="name" pattern="[a-z A-Z]{3,8}"><br><br>
+                    <label for="email">Email </label>
+                    <input type="email" required placeholder="EX: John@gmail.com" id="email" name="email"><br><br>
+                    <label for="dob">DOB </label>
+                    <input type="date" required id="dob" name="dop"><br><br>
+                    <label for="number">Number</label>
+                    <input type="number" required placeholder="EX:9999988888" id="number" name="number" size="10" pattern="[6-9]{1}[0-9]{9}"><br><br>
+                    <label for="message">Message</label>
+                    <input type="text" required id="message" name="message"><br><br>
+                    <input type="submit"> 
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
